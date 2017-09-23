@@ -7,11 +7,14 @@ near-instantaneous 3D animal position data to a realtime rendering engine, which
 draws perspective-correct visual stimuli for the animal on the walls using
 calibrated computer displays.
 
-"FreemoVR" itself refers to a system of several components. The [FreemoVR
-engine](https://github.com/strawlab/freemovr_engine) draws the visual stimuli,
-and can use different tracking systems to provide position input. The system was
-originally developed to use [flydra](https://github.com/strawlab/flydra) as the
-source of 3D position input.
+"FreemoVR" itself refers to a system of several components:
+
+* The **[FreemoVR engine](https://github.com/strawlab/freemovr_engine)** draws the
+visual stimuli, and can use different tracking systems to provide position
+input.
+
+* **[Flydra](https://github.com/strawlab/flydra)** is used as the source of 3D
+position input in most of our work.
 
 This repository hold information relevant to the entire system rather than about
 any specific part. Most of the source code will be in the individual code
@@ -52,6 +55,6 @@ conditions.
 
 ## Code of conduct
 
-Anyone who interacts with bui-backend in any space including but not
-limited to this GitHub repository is expected to follow our [code of
-conduct](https://github.com/strawlab/flydra/blob/master/code_of_conduct.md).
+Anyone who interacts with FreemoVR in any space including but not limited to
+this GitHub repository is expected to follow our [code of
+conduct](https://github.com/strawlab/freemovr/blob/master/code_of_conduct.md).
